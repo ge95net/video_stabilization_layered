@@ -1,0 +1,27 @@
+----------------- Options ---------------
+             aspect_ratio: 1.0                           
+               batch_size: 16                            
+          checkpoints_dir: ./checkpoints                 
+                 dataroot: ./datasets/tennis             	[default: None]
+             dataset_mode: omnimatte                     
+          display_winsize: 256                           
+                    epoch: latest                        
+                  gpu_ids: 5                             	[default: 0]
+                   height: 256                           
+                     in_c: 16                            
+                  isTrain: False                         	[default: None]
+              jitter_rate: 0.75                          
+         max_dataset_size: inf                           
+                    model: omnimatte                     
+                     name: tennis                        	[default: experiment_name]
+              num_filters: 64                            
+                 num_test: inf                           
+              num_threads: 4                             
+                    phase: test                          
+              results_dir: ./results/                    
+                     seed: 1                             
+           serial_batches: False                         
+                   suffix:                               
+                  verbose: False                         
+                    width: 448                           
+----------------- End -------------------
